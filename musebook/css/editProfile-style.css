@@ -1,0 +1,249 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2f3241;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+}
+
+.menubar {
+    height: 60px;
+    width: 100%;
+    background: #252941;
+    box-shadow: 0 0 10px #666666;
+}
+
+.menubar ul.menu {
+    margin: 0;
+    font-size: 28px;
+}
+
+.menubar ul.menu li {
+    margin-top: 12px; 
+    margin-left: 30px; 
+    list-style: none;
+    float: left;
+}
+
+.menubar ul.menu li a {
+    text-decoration: None;
+    color: white;
+    border-bottom: 1px solid transparent;
+    padding-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.menubar ul.menu li a:hover {
+    border-bottom: 1px solid white;
+    padding-bottom: 0;
+}
+
+.menubar ul.logOn {
+    margin: 0;
+    font-size: 28px;
+}
+
+.menubar ul.logOn li {
+    margin-top: 4px;
+    margin-right: 70px; 
+    list-style: none;
+    float: right; 
+}
+
+.logbtn {
+    text-decoration: None;
+    font-weight: bold;
+    font-size: 28px;
+    color: white;
+    background: rgb(255, 0, 98);
+    padding: 8px;
+    transition: all 0.3s ease;
+}
+
+.logbtn:hover {
+    background: rgb(5, 196, 47);
+}
+
+
+.dropbtn {
+    background-color: rgb(255, 0, 98);
+    color: white;
+    padding: 8px;
+    margin-top: 4px;
+    font-size: 28px;
+    font-weight: bold;
+    border-radius: 3%;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-right: 80px;
+    float: right;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: auto;
+    box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    font-size: 18px;
+    color: black;
+    padding: 12px 14px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {
+    background-color: rgb(227, 255, 103);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: rgb(15, 79, 255);
+}
+
+h1 {
+    text-align: left;
+    color: white;
+    font-size: 40px;
+    margin-left: 80px; 
+}
+
+.content {
+    list-style: none;
+    float: left;
+    margin-top: -30px;
+    margin-left: 40px; 
+}
+
+.profileBox {
+    width: 500px;
+    height: 250px;
+    font-size: 18px;
+    border: 5px solid #252941;
+    border-radius: 10px; 
+}
+
+.to1 {
+    color: white;
+}
+
+.to2 {
+    color: white;
+    display: inline;
+    margin: 0px;
+    float: left;
+}
+
+.to3 {
+    color: white;
+    text-align: center;
+}
+
+.priceBox {
+    width: 230px;
+    height: 35px;
+    font-size: 18px;
+    border: 5px solid #252941;
+    border-radius: 10px; 
+    margin-left: 20px;
+    float: left;
+}
+
+.pic {
+    max-width: 250px;
+    border: 3px solid white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.galpic {
+    float: left;
+    width: 550px;
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+
+.bfile {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button.b1{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    width: 140px;
+    margin-left: 30px;
+}
+
+button.b1:hover {background-color: #3e8e41}
+
+button.b1:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+button.b2{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(175, 76, 76);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    width: 140px;
+    margin-left: 30px;
+}
+
+button.b2:hover {background-color: #8e3e3e}
+
+button.b2:active {
+  background-color: #8e3e3e;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.butt {
+    list-style: none;
+    float: left;
+    margin-top: -20px; 
+    margin-left: 100px; 
+}
+
+.butt li {
+    float: left;
+}

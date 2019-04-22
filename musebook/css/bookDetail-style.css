@@ -1,0 +1,230 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2f3241;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+}
+
+.menubar {
+    height: 60px;
+    width: 100%;
+    background: #252941;
+    box-shadow: 0 0 10px #666666;
+}
+
+.menubar ul.menu {
+    margin: 0;
+    font-size: 28px;
+}
+
+.menubar ul.menu li {
+    margin-top: 12px; 
+    margin-left: 30px; 
+    list-style: none;
+    float: left;
+}
+
+.menubar ul.menu li a {
+    text-decoration: None;
+    color: white;
+    border-bottom: 1px solid transparent;
+    padding-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.menubar ul.menu li a:hover {
+    border-bottom: 1px solid white;
+    padding-bottom: 0;
+}
+
+.menubar ul.logOn {
+    margin: 0;
+    font-size: 28px;
+}
+
+.menubar ul.logOn li {
+    margin-top: 4px;
+    margin-right: 70px; 
+    list-style: none;
+    float: right; 
+}
+
+.logbtn {
+    text-decoration: None;
+    font-weight: bold;
+    font-size: 28px;
+    color: white;
+    background: rgb(255, 0, 98);
+    padding: 8px;
+    transition: all 0.3s ease;
+}
+
+.logbtn:hover {
+    background: rgb(5, 196, 47);
+}
+
+
+.dropbtn {
+    background-color: rgb(255, 0, 98);
+    color: white;
+    padding: 8px;
+    margin-top: 4px;
+    font-size: 28px;
+    font-weight: bold;
+    border-radius: 3%;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-right: 80px;
+    float: right;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: auto;
+    box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    font-size: 18px;
+    color: black;
+    padding: 12px 14px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {
+    background-color: rgb(227, 255, 103);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: rgb(15, 79, 255);
+}
+
+h1 {
+    text-align: left;
+    color: white;
+    font-size: 40px;
+    margin-left: 80px;
+}
+
+.detailTable {
+    border-collapse: collapse;
+    color: white;
+    font-size: 22px;
+    margin-left: 40px;
+    background-color: rgb(83, 88, 88);
+    border-radius: 10px;
+    width: 750px;
+}
+
+.detailTable th, td {
+    padding: 10px;
+    font-weight: normal;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+th.topic {
+    font-weight: bold;
+}
+
+.verification {
+    background-color: rgb(83, 88, 88);
+    padding: 10px;
+    height: 280px;
+    border: 2px solid white;
+}
+
+ul li.con1 {
+    float: left;
+    list-style: none;
+    width: 800px;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul li.con2 {
+    float: left;
+    margin-left: 40px;
+    list-style: none;
+    width: 330px;
+}
+
+.verification ul li {
+    list-style: none;
+}
+
+.verification ul li a{
+    text-decoration: none;
+}
+
+.verification ul li button.b1{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 22px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    width: 160px;
+    margin-left: 30px;
+}
+
+.verification ul li button.b1:hover {background-color: #3e8e41}
+
+.verification ul li button.b1:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.verification ul li button.b2{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 22px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(175, 76, 76);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    width: 160px;
+    margin-left: 30px;
+}
+
+.verification ul li button.b2:hover {background-color: #8e3e3e}
+
+.verification ul li button.b2:active {
+  background-color: #8e3e3e;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+}

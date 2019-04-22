@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2f3241;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+}
+
+.menubar {
+    height: 60px;
+    width: 100%;
+    background: #252941;
+    box-shadow: 0 0 10px #666666;
+}
+
+.menubar ul.menu {
+    margin: 0;
+    font-size: 28px;
+}
+
+.menubar ul.menu li {
+    margin-top: 12px; 
+    margin-left: 30px; 
+    list-style: none;
+    float: left;
+}
+
+.menubar ul.menu li a {
+    text-decoration: None;
+    color: white;
+    border-bottom: 1px solid transparent;
+    padding-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.menubar ul.menu li a:hover {
+    border-bottom: 1px solid white;
+    padding-bottom: 0;
+}
+
+.menubar ul.logOn {
+    margin: 0;
+    font-size: 28px;
+}
+
+.menubar ul.logOn li {
+    margin-top: 4px;
+    margin-right: 70px; 
+    list-style: none;
+    float: right; 
+}
+
+.logbtn {
+    text-decoration: None;
+    font-weight: bold;
+    font-size: 28px;
+    color: white;
+    background: rgb(255, 0, 98);
+    padding: 8px;
+    transition: all 0.3s ease;
+}
+
+.logbtn:hover {
+    background: rgb(5, 196, 47);
+}
+
+
+.dropbtn {
+    background-color: rgb(255, 0, 98);
+    color: white;
+    padding: 8px;
+    margin-top: 4px;
+    font-size: 28px;
+    font-weight: bold;
+    border-radius: 3%;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-right: 80px;
+    float: right;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: auto;
+    box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    font-size: 18px;
+    color: black;
+    padding: 12px 14px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {
+    background-color: rgb(227, 255, 103);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: rgb(15, 79, 255);
+}
+
+h1 {
+    font-size: 48px;
+    color: white;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.bar-container ul {
+    margin: 0px;
+    float: left;
+}
+
+.bar-container ul.name_part li {
+    float: left;
+    list-style: none;
+    width: 960px;
+}
+
+.bar-container ul.butt_part li {
+    float: right;
+    list-style: none;
+    margin-top: 28px;
+}
+
+.butt {
+    max-width: 160px;
+}
+
+.pic {
+    max-width: 300px;
+    border: 3px solid white;
+}
+.profile-container ul {
+    float: left;
+}
+.aimg {
+    float: left;
+    list-style: none;
+    margin-left: 50px; 
+    margin-top: 20px;
+}
+
+.des {
+    float: left;
+    list-style: none;
+    margin-left: 90px;
+    margin-top: 0px; 
+}
+
+p {
+    font-size: 24px;
+    color: white;
+    max-width: 700px;
+}
+
+h3 {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
