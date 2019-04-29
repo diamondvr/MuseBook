@@ -17,7 +17,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
     <link rel="stylesheet" href="css/datepickk.min.css">
 </head>
-<body>
+<body onload="zoom()">
     <?php
         $var_artist = $_GET['artist_name'];
         $result = mysqli_query($con, " SELECT * FROM artist_data WHERE artist_name = '$var_artist' ");

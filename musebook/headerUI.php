@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="css/nav-style.css">
 </head>
-<body>
+<body onload="zoom()">
     <div class="menubar">
         <ul class="menu">
             <li>
