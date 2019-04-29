@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/nav-style.css">
 </head>
 <body>
     <div class="menubar">
@@ -25,18 +26,19 @@
                         echo '  <div class="dropdown">
                                     <button class="dropbtn"> '.$_SESSION['userName'].' </button>
                                     <div class="dropdown-content">
-                                        <a href="booking-history.php">BOOKING HISTORY</a>
-                                        <a href="view-booking.php">VIEW BOOKING</a>
-                                        <a href="edit-profile.php">EDIT PROFILE</a>
-                                        <a href="logout-process.php">LOG OUT</a>
+                                        <a href="booking-history.php">Booking History</a>
+                                        <a href="view-booking.php">View Booking</a>
+                                        <a href="edit-schedule.php">Edit Schedule</a>
+                                        <a href="edit-profile.php">Edit Profile</a>
+                                        <a href="logout-process.php">Log Out</a>
                                     </div>
                                 </div> ';
                     }else{
                         echo '  <div class="dropdown">
                                     <button class="dropbtn"> '.$_SESSION['userName'].' </button>
                                     <div class="dropdown-content">
-                                        <a href="booking-history.php">BOOKING HISTORY</a>
-                                        <a href="logout-process.php">LOG OUT</a>
+                                        <a href="booking-history.php">Booking History</a>
+                                        <a href="logout-process.php">Log Out</a>
                                     </div>
                                 </div> ';
                     }

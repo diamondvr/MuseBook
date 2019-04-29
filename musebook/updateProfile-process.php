@@ -5,9 +5,6 @@
     $price = $_POST['newPrice'];
     $aname = $_SESSION['userRealName'];
 
-    //$getProfile = mysqli_query($con, " SELECT * FROM artist_data WHERE artist_name = '$aname' ");
-    //$row = mysqli_fetch_array($book_detail);
-
     if($_FILES["filUpload"]["name"] != "")
 	{
         $img = $_FILES['filUpload'];

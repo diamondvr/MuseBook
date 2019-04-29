@@ -12,7 +12,7 @@
     <link rel="stylesheet" type="text/css" href="css/profile-style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
 </head>
-<body>
+<body onload="zoom()">
     <?php
         $var_artist = $_GET['artistname'];
         $result = mysqli_query($con, " SELECT * FROM artist_data WHERE artist_name = '$var_artist' ");
@@ -30,8 +30,8 @@
         </ul>
         <ul class=butt_part>
             <li>
-                <a href="book.php?<?php echo $row["artist_name"]; ?>">
-                    <img src="src/img/bookButt.png" class="butt">
+                <a href="book.php?artist_name=<?php echo $row["artist_name"]; ?>">
+                    <button class="butt">BOOK</button>
                 </a>
             </li>
         </ul>
@@ -46,7 +46,7 @@
                 ?>
             </li>
             <li class="des">
-                <p> <?php echo $row["artist_profile"]; ?> </p>
+                <textarea readonly class="boxdes"><?php echo $row["artist_profile"]; ?></textarea>
             </li>
         </ul>
     </div>

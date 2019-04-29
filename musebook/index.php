@@ -9,16 +9,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>MuseBook</title>
-    <link rel="stylesheet" href="css/home-style.css">
+    <link rel="stylesheet" type="text/css" href="css/home-style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
 </head>
 <body onload="zoom()">
-    <h1>MUSEBOOK</h1>
+    <h1 class="headline">MUSEBOOK</h1>
     <h2 class=topic>The easiest way to book artist</h2>
     <br>
     <form action="search.php" class="searchbar" medthod="GET">
-        <input type="text" name="search_name" placeholder="ARTIST'S NAME" required>
-        <input type="submit" value="Search">
+        <input class="sb" type="text" name="search_name" placeholder="ARTIST'S NAME" required>
+        <input class="sbtt" type="submit" value="Search">
     </form>
     <br>
     <div class="cover-container">

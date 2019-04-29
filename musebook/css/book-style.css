@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2f3241;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+}
+
+h1.aname {
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+.bar1 {
+    float: left;
+    list-style: none;
+}
+
+.bar1 li {
+    float: left;
+}
+
+.pic {
+    max-width: 60px;
+    border: 2px solid white;
+    border-radius: 50%; 
+    margin-left: 20px;
+}
+
+.item4-input {
+    margin-top: 90px; 
+    margin-right: 100px;
+    background: rgb(83, 88, 88);
+    border: 2px solid white;
+    padding: 10px;
+    float: right;
+    font-size: 22px;
+    width: 440px;
+    height: 400px;
+}
+
+h2.topic {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+    margin: 0px;
+}
+
+h3.nameLabel {
+    color: white;
+    margin-top: 0px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+h3.timeLabel {
+    color: white;
+    margin-top: 0px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+h3.phoneLabel {
+    color: white;
+    margin-top: -10px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.nameBox {
+    text-align: center;
+    margin-top: -48px;
+    margin-left: 120px;
+    font-size: 20px;
+    border-radius: 5px;
+    width: 290px;
+}
+
+.time1 {
+    margin-left: 120px; 
+    margin-top: -37px;
+    color: white;
+    font-size: 20px; 
+    overflow: hidden;
+}
+
+.time2 {
+    margin-left: 120px; 
+    margin-top: -15px;
+    margin-bottom: 0px; 
+    color: white;
+    font-size: 20px; 
+    overflow: hidden;
+}
+
+.t1 {
+    color: white;
+    margin-left: 140px; 
+    margin-top: -45px;
+}
+
+.t2 {
+    color: white;
+    margin-left: 140px; 
+    margin-top: -23px;
+}
+
+.phoneBox {
+    text-align: center;
+    margin-top: -45px;
+    margin-left: 120px;
+    font-size: 20px;
+    border-radius: 5px;
+    width: 290px;
+}
+
+.addrLabel {
+    color: white;
+    margin-top: -20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.addrBox {
+    text-align: center;
+    margin-top: -10px; 
+    margin-left: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    width: 390px;
+}
+
+.subButt {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 12px;
+    margin-left: 180px;
+    border-radius: 5px;
+    padding: 6px;
+}
