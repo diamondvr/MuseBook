@@ -2,6 +2,7 @@
 Software Development Processes 2019
 
 Import SQL Large file by phpmyadmin
+
   Changing php.ini at C:\xampp\php\php.ini
     max_execution_time = 600
     max_input_time = 600
