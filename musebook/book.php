@@ -61,7 +61,7 @@
                 <input type="radio" class="time1" name ="detailtime" id="time1" value="18:00:00-19:00:00" checked><h4 class="t1">18.00-19.00</h4>
                 <input type="radio" class="time2" name="detailtime" id="time2" value="21:00:00"><h4 class="t2">21.00-22.00</h4>   
                 <h3 class="phoneLabel">Mobile :</h3>
-                <input type="tel" class="phoneBox" name="detailtel" pattern="[0-9]{10}"  placeholder="Tel."><br><br>
+                <input type="tel" class="phoneBox" name="detailtel" pattern="[0-9]{10}" maxlength="10" placeholder="Tel."><br><br>
                 <h3 class="addrLabel">Address</h3>
                 <textarea class="addrBox" name="detailaddr" id="" cols="30" rows="3" placeholder="Type your address here"></textarea><br>
                 <input class="subButt" type="submit" onclick="verified()" name="submit-detail"  value="BOOK"><br>
